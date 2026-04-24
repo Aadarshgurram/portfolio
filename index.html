@@ -798,6 +798,21 @@
             <h2 class="section-title fade-in">Projects</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-6">
+                    <div class="project-card fade-in" data-bs-toggle="modal" data-bs-target="#ivrModal">
+                        <div class="project-image">
+                            <i class="fas fa-phone-volume"></i>
+                        </div>
+                        <div class="project-content">
+                            <h5>Interactive Voice Response</h5>
+                            <p>A Python-based IVR system automating customer interactions through voice commands, featuring speech recognition and intelligent call routing.</p>
+                            <br>
+                            <span class="badge bg-primary me-2">Python</span>
+                            <span class="badge bg-secondary me-2">FastAPI</span>
+                            <span class="badge bg-success">Twilio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
                     <div class="project-card fade-in" data-bs-toggle="modal" data-bs-target="#project1Modal">
                         <div class="project-image">
                             <i class="fas fa-house-user"></i>
@@ -1049,6 +1064,43 @@
                     <span class="badge bg-success me-2">AI</span>
                     <span class="badge bg-warning me-2">YOLO</span>
                     <span class="badge bg-info">Docker</span>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-neon me-2">View Live Demo</a>
+                    <a href="#" class="btn btn-outline-light">GitHub Repository</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- IVR Modal -->
+    <div class="modal fade" id="ivrModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Interactive Voice Response</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-4">
+                        <img src="https://via.placeholder.com/600x300/0a0a0a/00ffff?text=Interactive+Voice+Response" class="img-fluid rounded" alt="Interactive Voice Response">
+                    </div>
+                    <h6>Project Overview</h6>
+                    <p>A Python-based Interactive Voice Response (IVR) system that automates customer call interactions using speech recognition and natural language processing. It intelligently routes calls, captures user inputs via DTMF tones or voice commands, and provides dynamic responses, reducing the need for human operators in routine inquiries.</p>
+                    <h6>Key Features</h6>
+                    <ul>
+                        <li>Automated voice menu navigation</li>
+                        <li>Speech-to-text and text-to-speech integration</li>
+                        <li>Intelligent call routing based on user intent</li>
+                        <li>DTMF tone detection and handling</li>
+                        <li>Real-time customer query processing</li>
+                    </ul>
+                    <h6>Technologies Used</h6>
+                    <span class="badge bg-primary me-2">Python</span>
+                    <span class="badge bg-secondary me-2">SpeechRecognition</span>
+                    <span class="badge bg-success me-2">Twilio</span>
+                    <span class="badge bg-warning me-2">FastAPI</span>
+                    <span class="badge bg-info">PyTest</span>
                 </div>
                 <div class="modal-footer">
                     <a href="#" class="btn btn-neon me-2">View Live Demo</a>
